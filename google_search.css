@@ -1,0 +1,87 @@
+body {
+	margin:0;
+}
+
+header {
+	height:60px;
+	width:100%;
+	background-color:#F1F1F1;
+	position:relative;
+}
+.logo_box {
+	padding: 20px 20px 20px 20px;
+	width:92px;
+	display:inline;
+}
+
+.logo_box img {
+	padding-top:19px;
+}
+
+.search {
+	height:50px;
+	width:630px;
+	padding-top:10px;
+	display:inline;
+	position:absolute;
+	clear:left;
+}
+
+.search_bar {
+	height:40px;
+	width:590px;
+	border: none;
+	position:relative;
+	margin:0 auto;
+	display:block;
+}
+
+.microphone_box {
+	height:40px;
+	width:40px;
+	position:relative;
+	float:right;
+	top:-55px;
+}
+
+.microphone_box img {
+	padding:10px 0 10px 12px;
+}
+
+
+input {
+	width:590px;
+	height:40px;
+	padding:5px 40px 5px 10px;
+	font-family: arial;
+	font-size: 16px;
+	position:relative;
+	margin:0 auto;
+	display:block;
+}
+
+input:hover {
+	border:.5px solid #a0a0a0;
+}
+
+input:focus {
+	outline-color: transparent;
+	outline-style: none;
+	border: .5px solid #4D90FE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
