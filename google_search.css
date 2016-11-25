@@ -9,7 +9,7 @@ header {
 	position:relative;
 }
 .logo_box {
-	padding: 20px 20px 20px 20px;
+	padding: 0px 0px 0px 20px;
 	width:92px;
 	display:inline;
 }
@@ -20,11 +20,11 @@ header {
 
 .search {
 	height:50px;
-	width:630px;
+	width:660px;
 	padding-top:10px;
 	display:inline;
 	position:absolute;
-	clear:left;
+
 }
 
 .search_bar {
@@ -32,8 +32,8 @@ header {
 	width:590px;
 	border: none;
 	position:relative;
-	margin:0 auto;
 	display:block;
+	margin: 0 0 0 20px;
 }
 
 .microphone_box {
@@ -45,7 +45,7 @@ header {
 }
 
 .microphone_box img {
-	padding:10px 0 10px 12px;
+	padding:10px 0px 10px 12px;
 }
 
 
@@ -69,6 +69,33 @@ input:focus {
 	outline-style: none;
 	border: .5px solid #4D90FE;
 }
+
+.search_button {
+	height:40px;
+	width:40px;
+	display:inline;
+	position:relative;
+	float:right;
+	right:-79px;
+	top:-56px;
+}
+
+.tiny_logo_box {
+	height:30px;
+	width: 140px;
+	float:right;
+	position:relative;
+	top:15px;
+}
+
+.tiny_logo_box img {
+	padding-left:15px;
+}
+
+.tiny_logo_box img:first-child, .tiny_logo_box img:nth-child(2) {
+	padding-bottom:5px;
+}
+
 
 
 
