@@ -77,7 +77,7 @@ input:focus {
 	position:relative;
 	float:right;
 	right:-79px;
-	top:-56px;
+	top:-57px;
 }
 
 .tiny_logo_box {
@@ -96,6 +96,138 @@ input:focus {
 	padding-bottom:5px;
 }
 
+.options_bar {
+	height:60px;
+	width:100%;
+	border-top:1px solid #EBEBEB;
+	border-bottom:1px solid #EBEBEB;
+	padding-left:127px;
+	position:absolute;
+}
+
+.options_bar ul {
+	padding-left:0px;
+	width:530px;
+	position:relative;
+}
+
+.options_bar li {
+	font-family:arial;
+	font-size: 13px;
+	color:#777;
+	display:inline;
+	float:left;
+	padding:8px 8px;
+	margin: 0 8px;
+
+}
+
+.options_bar li:hover {
+	color:#222;
+	cursor: pointer;
+}
+
+.options_bar li:nth-child(7):hover {
+	color:#777;
+	cursor: pointer;
+	background-color:#f2f2f2;
+	border:1px solid #aaa;
+	border-radius: 2px;
+}
+
+.options_bar li:first-child {
+	font-family:arial;
+	font-size: 13px;
+	font-weight: bold;
+	color:#4285F4;
+	display:inline;
+	float:left;
+	padding:8px 8px;
+	margin: 0 8px;
+	border-bottom:3px solid #4285F4;
+	height:25px;
+}
+
+.search_results_container {
+	padding-left:137px;
+	position:absolute;
+	top:175px;
+}
+
+.search_result {
+	height:73px;
+	width:615px;
+	position:relative;
+	margin-bottom:30px;
+}
+
+.search_result_title {
+	color:#4339BA;
+	font-size:18px;
+	font-family:arial;
+	position:relative;
+}
+
+.search_result_title:hover {
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+.search_url {
+	color:#006621;
+	font-size: 14px;
+	display:block;
+	font-family: arial;
+}
+
+.search_text {
+	color:#555555;
+	font-size: 14px;
+	font-family:arial;
+}
+
+.related_searches_box {
+	border-top:1px solid #EBEBEB;
+	border-bottom:1px solid #EBEBEB;
+	position:relative;
+	height:180px;
+}
+
+.related_text {
+	font-size:18px;
+	font-family: arial;
+	color:#848484;
+	position:relative;
+	padding: 20px 0 0px 10px;
+}
+
+.related_container {
+	width: 270px;
+	display:inline;
+	position:relative;
+	float:left;
+	color:#4339BA;
+	font-size:14px;
+	font-family: arial;
+}
+
+.related_container li {
+	padding-top:5px;
+	list-style: none;
+}
+
+.related_container ul {
+	padding-left:10px;
+}
+
+.related_container li:hover {
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.next_result_box {
+	height:117px;
+}
 
 
 
